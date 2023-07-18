@@ -204,13 +204,13 @@ ul.row {
     margin-right: auto;
 }
 .footer-address{
-    --text-color: var(--text-color);
+    color: var(--text-color);
 }
 .social-link{
     display: block;
 }
 .social-link > svg{
-    color: var(--text-color);
+    fill: var(--text-color);
 }
 .footer {
     padding: var(--footer-padding);
