@@ -127,10 +127,9 @@ a:active {
     color: var(--color-primary);
 }
 
-.row + .row {
+.row::after {
     clear: both;
     content: "";
-    float: none;
     display: table;
   }
 .section {
